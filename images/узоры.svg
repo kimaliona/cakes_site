@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_фоновые_узоры" data-name="фоновые узоры" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1361 2377">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2bcd0;
+      }
+
+      .cls-2 {
+        fill: #fba2b0;
+      }
+
+      .cls-3 {
+        fill: #fdc0b9;
+      }
+    </style>
+  </defs>
+  <path class="cls-3" d="M631-1s52,400,335,404,54.1,391.47,228,451c111,38,172-45,172-45V-3L631-1Z"/>
+  <path class="cls-2" d="M1,625s255-9,400,252c145,261,351,241,348,438s-415,341-567,39S1,1295,1,1295V625Z"/>
+  <path class="cls-1" d="M762,2381s-90-538,340-621,117-259,131-336,131-9,131-9l3,966H762Z"/>
+</svg>

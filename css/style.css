@@ -1,0 +1,109 @@
+@charset "UTF-8";
+* {
+  margin: 0 auto;
+}
+
+.page {
+  background-color: #FFFBE6;
+  background-image: url("../images/узоры.svg");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  margin-left: 40px;
+}
+
+.navigation {
+  margin-left: 580px;
+  margin-top: 40px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+.navigation-item {
+  margin-left: 50px;
+}
+.navigation-link {
+  text-decoration: none;
+  font-family: "Arial Black";
+  color: white;
+  font-size: 25pt;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.main .slogan-description {
+  margin-top: 160px;
+  margin-left: 43px;
+  font-family: "Arial Black";
+  font-size: 55pt;
+  color: #534741;
+  line-height: 65px;
+}
+.main .box {
+  margin-right: 70px;
+  margin-bottom: 150px;
+}
+
+.catalog {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.catalog-item {
+  text-align: center;
+  align-items: center;
+  color: #534741;
+  margin-bottom: 25px;
+}
+.catalog .title {
+  font-family: "Arial Black";
+  font-size: 55pt;
+}
+.catalog .description {
+  justify-content: center;
+  font-family: "Hoefler Text";
+  font-size: 26pt;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.blocks-item {
+  width: 400px;
+  height: 310px;
+  border-radius: 70px;
+}
+.blocks .biscuit {
+  background-color: #BDEDEF;
+}
+.blocks .flavour {
+  background-color: #FDFFB0;
+}
+.blocks .decor {
+  background-color: #FFD7FA;
+}
+
+.information {
+  display: flex;
+  width: 500px;
+  display: flex;
+}
+
+.information .title {
+  font-family: "Arial Black";
+  font-size: 55pt;
+  color: #534741;
+}
+
+.information .aboutus {
+  font-family: "Hoefler Text";
+  font-size: 26pt;
+  color: #534741;
+  margin-top: 170px;
+
+}/*# sourceMappingURL=style.css.map */

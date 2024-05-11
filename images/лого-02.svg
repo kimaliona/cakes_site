@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 3670">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .02em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-3 {
+        fill: #f7f5c1;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #fffbe6;
+      }
+
+      .cls-7 {
+        fill: #fff6d2;
+      }
+
+      .cls-8 {
+        fill: #f2bcd0;
+      }
+
+      .cls-9 {
+        fill: #fdc0b9;
+      }
+
+      .cls-10 {
+        font-size: 94px;
+      }
+
+      .cls-10, .cls-11 {
+        fill: #534741;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-5 {
+        font-family: Arial-Black, 'Arial Black';
+      }
+
+      .cls-13 {
+        letter-spacing: .04em;
+      }
+
+      .cls-11 {
+        font-size: 43px;
+      }
+
+      .cls-14 {
+        fill: #def9fc;
+        stroke: #07779e;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-12 {
+        font-size: 35px;
+      }
+
+      .cls-12, .cls-15 {
+        fill: #b7b197;
+      }
+
+      .cls-16 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-5 {
+        font-size: 34px;
+      }
+
+      .cls-15 {
+        font-family: HoeflerText-Regular, 'Hoefler Text';
+        font-size: 31px;
+      }
+    </style>
+  </defs>
+  <g id="_фон" data-name="фон">
+    <path class="cls-6" d="M1365,3393H-2c0-156.25,0-312.5,0-468.76,0-34.48,0-1984.64,0-2925.24H1365V3393Z"/>
+    <rect class="cls-7" x="3" y="3392" width="1363" height="275"/>
+    <path class="cls-8" d="M583.05,0s-30.05,213.55,245.95,252.59c276,39.04,213,260.25,318,384.38s217.42-80.12,217.42-80.12L1368,0H583.05Z"/>
+  </g>
+  <g id="_фоновые_узоры" data-name="фоновые узоры">
+    <path class="cls-3" d="M1365.66,2182.63c.11,67.86-86.41,96.54-126.86,42.06-146.75-197.64-346.09-524.03-165.8-641.69,190-124-1.78-474.04,110-542,125-76,181,151,181,151l1.66,990.63Z"/>
+    <path class="cls-9" d="M-2,2808.49s267-376.41,542,48.83c275,425.24,395,192.52,395,192.52,0,0,147-261.97,253,106.01,106,367.98,174.51,155.99,174.51,155.99l3.49,79.17H3l-5-582.51Z"/>
+    <rect class="cls-14" x="788.68" y="3252.5" width="529" height="107" rx="53.5" ry="53.5"/>
+  </g>
+  <g id="_текст" data-name="текст">
+    <text class="cls-10" transform="translate(86.39 343.7)"><tspan x="0" y="0">КОРЖИ</tspan></text>
+    <text class="cls-10" transform="translate(778.37 1348.7)"><tspan x="0" y="0">НАЧИНКИ</tspan></text>
+    <text class="cls-10" transform="translate(80.39 2320.7)"><tspan x="0" y="0">ДЕКОР</tspan></text>
+    <text class="cls-5" transform="translate(704.42 111.08)"><tspan x="0" y="0">Главная</tspan></text>
+    <text class="cls-5" transform="translate(930.42 111.08)"><tspan x="0" y="0">Каталог</tspan></text>
+    <text class="cls-5" transform="translate(1152.42 111.08)"><tspan x="0" y="0">Корзина</tspan></text>
+    <g>
+      <rect class="cls-4" x="77" y="402" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="494.33" y="402" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="911.67" y="402" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="77" y="839" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="494.33" y="839" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="911.67" y="839" width="392.52" height="387" rx="79.97" ry="79.97"/>
+    </g>
+    <g>
+      <rect class="cls-4" x="77" y="1393" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="494.33" y="1393" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="911.67" y="1393" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="77" y="1830" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="494.33" y="1830" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="911.67" y="1830" width="392.52" height="387" rx="79.97" ry="79.97"/>
+    </g>
+    <g>
+      <rect class="cls-4" x="77" y="2381" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="494.33" y="2381" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="911.67" y="2381" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="77" y="2818" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="494.33" y="2818" width="392.52" height="387" rx="79.97" ry="79.97"/>
+      <rect class="cls-4" x="911.67" y="2818" width="392.52" height="387" rx="79.97" ry="79.97"/>
+    </g>
+    <text class="cls-11" transform="translate(823.02 3323.74)"><tspan x="0" y="0">ОФОРМИТЬ ЗАКАЗ</tspan></text>
+  </g>
+  <g id="_картинки" data-name="картинки">
+    <g>
+      <text class="cls-12" transform="translate(632.48 3474.08)"><tspan x="0" y="0">Контакты</tspan></text>
+      <text class="cls-15" transform="translate(376.17 3526.71)"><tspan x="0" y="0">+7(922)3139204</tspan><tspan class="cls-16" x="0" y="47">t</tspan><tspan x="10.97" y="47">ofu_ba</tspan><tspan class="cls-2" x="99.76" y="47">k</tspan><tspan x="115.63" y="47">e</tspan><tspan class="cls-13" x="130.14" y="47">r</tspan><tspan x="142.91" y="47">y@mail.</tspan><tspan class="cls-1" x="244.93" y="47">r</tspan><tspan x="257.23" y="47">u</tspan></text>
+    </g>
+  </g>
+</svg>

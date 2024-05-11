@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 2298">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .02em;
+      }
+
+      .cls-2 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #07779e;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke-width: 1.19px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-4 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-8 {
+        fill: #f7f5c1;
+      }
+
+      .cls-9 {
+        fill: #fffbe6;
+      }
+
+      .cls-10 {
+        fill: #fff6d2;
+      }
+
+      .cls-11 {
+        fill: #fba2b0;
+      }
+
+      .cls-12 {
+        fill: #fdc0b9;
+      }
+
+      .cls-13 {
+        fill: #8e9a9b;
+      }
+
+      .cls-13, .cls-14, .cls-15, .cls-16 {
+        font-size: 35px;
+      }
+
+      .cls-13, .cls-16 {
+        font-family: AvenirNext-Regular, 'Avenir Next';
+      }
+
+      .cls-17 {
+        fill: #ff7bac;
+        font-size: 94px;
+      }
+
+      .cls-17, .cls-18, .cls-19, .cls-14, .cls-15, .cls-6 {
+        font-family: Arial-Black, 'Arial Black';
+      }
+
+      .cls-20 {
+        letter-spacing: .04em;
+      }
+
+      .cls-18 {
+        fill: #d4145a;
+        font-size: 37px;
+      }
+
+      .cls-5 {
+        stroke-width: 4.22px;
+      }
+
+      .cls-19 {
+        font-size: 77px;
+      }
+
+      .cls-19, .cls-15 {
+        fill: #534741;
+      }
+
+      .cls-14, .cls-21 {
+        fill: #b7b197;
+      }
+
+      .cls-22 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        font-size: 34px;
+      }
+
+      .cls-21 {
+        font-family: HoeflerText-Regular, 'Hoefler Text';
+        font-size: 31px;
+      }
+    </style>
+  </defs>
+  <g id="_фон" data-name="фон">
+    <path class="cls-9" d="M1364,2296H-3c0-105.56,0-211.13,0-316.69,0-23.3,0-1340.83,0-1976.31H1364V2296Z"/>
+  </g>
+  <g id="_фоновые_узоры" data-name="фоновые узоры">
+    <path class="cls-11" d="M1365,1371s-256.02-9-401.6,252c-145.58,261-352.41,241-349.4,438,3.01,197,416.66,341,569.27,39,152.61-302,181.73-59,181.73-59v-670Z"/>
+    <path class="cls-12" d="M631,4s52,400,335,404,54.1,391.47,228,451c111,38,172-45,172-45V2l-735,2Z"/>
+    <path class="cls-8" d="M.34,1931.63c-.11,67.86,86.41,96.54,126.86,42.06,146.75-197.64,346.09-524.03,165.8-641.69-190-124,1.78-474.04-110-542C58,714,2,941,2,941L.34,1931.63Z"/>
+    <rect class="cls-10" x="2" y="2020" width="1363" height="275"/>
+  </g>
+  <g id="_текст" data-name="текст">
+    <text class="cls-19" transform="translate(130.94 472.52)"><tspan x="0" y="0">КОРЖ:</tspan></text>
+    <text class="cls-19" transform="translate(130.94 587.52)"><tspan x="0" y="0">НАЧИНКА:</tspan></text>
+    <text class="cls-19" transform="translate(130.94 700.52)"><tspan x="0" y="0">ДЕКОР:</tspan></text>
+    <text class="cls-17" transform="translate(643.44 1028.98)"><tspan x="0" y="0">СУММА:</tspan></text>
+    <text class="cls-6" transform="translate(703.42 115.08)"><tspan x="0" y="0">Главная</tspan></text>
+    <text class="cls-6" transform="translate(929.42 115.08)"><tspan x="0" y="0">Каталог</tspan></text>
+    <text class="cls-6" transform="translate(1151.42 115.08)"><tspan x="0" y="0">Корзина</tspan></text>
+    <text class="cls-18" transform="translate(130.94 344.08)"><tspan x="0" y="0">ВЫ ВЫБРАЛИ:</tspan></text>
+    <text class="cls-15" transform="translate(643.42 467.93)"><tspan x="0" y="0">ШОКОЛАДНЫЙ</tspan></text>
+    <text class="cls-15" transform="translate(643.42 585.93)"><tspan x="0" y="0">ФИСТАШКА-ВИШНЯ</tspan></text>
+    <text class="cls-15" transform="translate(1134.42 1018.91)"><tspan x="0" y="0">3.500 РУБ.</tspan></text>
+    <text class="cls-15" transform="translate(643.42 694.93)"><tspan x="0" y="0">СВЕЖАЯ КЛУБНИКА, </tspan><tspan x="0" y="70">СВЕЖАЯ ГОЛУБИКА, </tspan><tspan x="0" y="140">МАКАРОНС, </tspan><tspan x="0" y="210">БАЗОВЫЙ ЦВЕТ </tspan></text>
+    <text class="cls-15" transform="translate(1134.36 467.57)"><tspan x="0" y="0">500</tspan></text>
+    <text class="cls-15" transform="translate(1134.42 585.93)"><tspan x="0" y="0">1500</tspan></text>
+    <text class="cls-15" transform="translate(1134.42 694.93)"><tspan x="0" y="0">1500</tspan></text>
+    <g>
+      <circle class="cls-5" cx="155.44" cy="1146" r="19"/>
+      <circle class="cls-5" cx="155.44" cy="1213.5" r="19"/>
+      <circle class="cls-5" cx="155.44" cy="1278.5" r="19"/>
+      <text class="cls-16" transform="translate(198.44 1158.1)"><tspan x="0" y="0">Онлайн картой</tspan></text>
+      <text class="cls-16" transform="translate(198.44 1225.6)"><tspan x="0" y="0">Наличными при получении</tspan></text>
+      <text class="cls-16" transform="translate(198.44 1290.6)"><tspan x="0" y="0">Картой при получении</tspan></text>
+    </g>
+    <g>
+      <g>
+        <rect class="cls-3" x="136.44" y="1433.5" width="1034.06" height="79" rx="14.34" ry="14.34"/>
+        <text class="cls-13" transform="translate(147.71 1486.01)"><tspan x="0" y="0">ФИО</tspan></text>
+      </g>
+      <g>
+        <rect class="cls-2" x="136.44" y="1551.5" width="1037.06" height="79" rx="14.36" ry="14.36"/>
+        <text class="cls-13" transform="translate(148.71 1604.01)"><tspan x="0" y="0">Номер телефона</tspan></text>
+      </g>
+      <g>
+        <rect class="cls-2" x="136.44" y="1671.5" width="1037.06" height="79" rx="14.36" ry="14.36"/>
+        <text class="cls-13" transform="translate(151.71 1726.01)"><tspan x="0" y="0">email</tspan></text>
+      </g>
+      <g>
+        <rect class="cls-4" x="136.44" y="1786.5" width="1041.06" height="79" rx="14.38" ry="14.38"/>
+        <text class="cls-13" transform="translate(151.71 1836.01)"><tspan x="0" y="0">Адрес доставки</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g id="_картинки" data-name="картинки">
+    <g>
+      <text class="cls-14" transform="translate(686.48 2098.08)"><tspan x="0" y="0">Контакты</tspan></text>
+      <text class="cls-21" transform="translate(430.17 2150.71)"><tspan x="0" y="0">+7(922)3139204</tspan><tspan class="cls-22" x="0" y="47">t</tspan><tspan x="10.97" y="47">ofu_ba</tspan><tspan class="cls-7" x="99.76" y="47">k</tspan><tspan x="115.63" y="47">e</tspan><tspan class="cls-20" x="130.14" y="47">r</tspan><tspan x="142.91" y="47">y@mail.</tspan><tspan class="cls-1" x="244.93" y="47">r</tspan><tspan x="257.23" y="47">u</tspan></text>
+    </g>
+  </g>
+</svg>
