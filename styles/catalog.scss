@@ -1,0 +1,49 @@
+$base:	#FFFBE6;
+$text: #534741;
+$light-blue: #BDEDEF;
+$light-yellow: #FDFFB0;
+$block-pink: #FFD7FA;
+$ight-brown: #B7B197;
+$button-light-blue: #DEF9FC;
+$button-dark-blue: #07779E;
+$dark-pink: #D4145A;
+$summ-pink: #FF7BAC;
+$orange: #FAB03C;
+.catalog-page{
+    background-color: $base;
+    background-image: url("../images/узоры-каталог.svg");
+    background-size: cover; //фоновое изображение узоров масштабируется так, чтобы полностью заполнить фон
+    margin: 0 auto;
+}
+
+.cakes{
+    margin-top: 100px;
+    margin-left: 43px;
+    margin-right: 43px;
+    .catalog-title{
+        font-family: "Arial Black";
+        font-size: 45pt;
+        color: $text;
+        margin-bottom: 30px;
+    }
+    .catalog-title-right{
+        margin-right: 43px;
+        font-family: "Arial Black";
+        font-size: 45pt;
+        color: $text;
+        margin-bottom: 30px;
+        text-align: right;
+    }
+}
+
+.cells{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    &-item{
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        border-radius: 70px;
+    }
+}
