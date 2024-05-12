@@ -186,5 +186,33 @@ $footer-text: #B7B197;
 }
 
 .cakes{
-    &
+    margin-top: 100px;
+    margin-left: 43px;
+    margin-right: 43px;
+    .catalog-title{
+        font-family: "Arial Black";
+        font-size: 45pt;
+        color: $text;
+        margin-bottom: 30px;
+    }
+    .catalog-title-right{
+        margin-right: 43px;
+        font-family: "Arial Black";
+        font-size: 45pt;
+        color: $text;
+        margin-bottom: 30px;
+        text-align: right;
+    }
+}
+
+.cells{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    &-item{
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        border-radius: 70px;
+    }
 }
