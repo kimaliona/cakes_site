@@ -8,6 +8,9 @@ $button-light-blue: #DEF9FC;
 $button-dark-blue: #07779E;
 $dark-pink: #D4145A;
 $summ-pink: #FF7BAC;
+$orange: #FAB03C;
+$footer-background: #FFF6D2;
+$footer-text: #B7B197;
 
 *{
     margin: 0 auto;
@@ -52,7 +55,13 @@ $summ-pink: #FF7BAC;
             font-family: 'Arial Black';
             font-size: 55pt;
             color: $text;
-            line-height: 65px;
+            line-height: 60px;
+        }
+        &-description2{
+            font-family: 'Source Serif Variable';
+            font-size: 55pt;
+            color: $text;
+            margin-left: 43px;
         }
     }
     .box{
@@ -78,32 +87,104 @@ $summ-pink: #FF7BAC;
         justify-content: center;
         font-family: 'Hoefler Text';
         font-size: 26pt;
+        padding-bottom: 20px;
+        line-height: 45px;
     }
 }
 .blocks{
     display: flex;
     justify-content: space-between;
+    font-family: "Arial Black";
+    font-size: 26pt;
     &-item{
         width: 400px;
         height: 310px;
         border-radius: 70px;
     }
-    .biscuit{
+    .chocolate{
         background-color: $light-blue;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        p {
+            font-size: 43px;
+            position: absolute;
+            padding-top: 27px;
+        }
+        img {
+            position: relative;
+        }
     }
-    .flavour{
+    .vanilla{
+        display: flex;
+        justify-content: center;
+        text-align: center;
         background-color: $light-yellow;
+        color: $orange;
+        p {
+            padding-top: 27px;
+            font-size: 45px;
+            position: absolute;
+        }
+        img {
+            position: relative;
+            padding-top: 30px;
+        }
     }
-    .decor{
+    .muss{
+        display: flex;
+        justify-content: center;
+        text-align: center;
         background-color: $block-pink;
+        color: white;
+        p {
+            padding-top: 27px;
+            position: absolute;
+            font-size: 50px;
+        }
+        img {
+            position: relative;
+            margin-top: -25px;
+        }
     }
 }
 
 .information{
     display: flex;
-    width: 500px;
+    margin-bottom: 130px;
     .aboutus{
-        font-family: 'Hoefler Text';
+        font-family: "Hoefler Text";
+        font-size: 26pt;
+        color: $text;
+        margin-top: 170px;
+        max-width: 500px;
+        margin-left: 100px;
+        line-height: 45px;
+    }
+    .title{
+        font-family: "Arial Black";
+        font-size: 55pt;
+        color: $text;
+        padding-top: 350px;
+        padding-right: 100px;
     }
 }
 
+.footer{
+    width: 100%;
+    height: 280px;
+    background-color: $footer-background;
+}
+
+//каталог
+.catalog-page{
+    background-color: $base;
+    background-image: url("../images/узоры-каталог.svg");
+    background-size: cover; //фоновое изображение узоров масштабируется так, чтобы полностью заполнить фон
+    margin: 0 auto;
+}
+
+.cakes{
+    &
+}
