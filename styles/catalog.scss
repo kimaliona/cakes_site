@@ -66,4 +66,21 @@ $orange: #FAB03C;
         text-align: center;
     }
 
+    .active {
+        border: 1px solid $dark-pink;
+    }
+}
+
+.manage {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+    &-request-button {
+        width: 300px;
+        height: 90px;
+        border: 1px solid $button-dark-blue;
+        border-radius: 50px;
+        font-size: 30px;
+    }
 }
