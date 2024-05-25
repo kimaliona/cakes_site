@@ -156,7 +156,61 @@ const renderCart = () => {
         cakesToRender.push(cake);
     }
 
-    console.log(cakesToRender);
+    const cakeInfo = document.getElementsByClassName("cake-info")[0];
+    const cakeInfoTitle = document.createElement("h3");
+    cakeInfoTitle.classList.add("cake-info_title");
+    const cakeInfoTitleText = document.createTextNode("Вы выбрали:")
+
+    cakeInfoTitle.appendChild(cakeInfoTitleText);
+    cakeInfo.appendChild(cakeInfoTitle);
+
+    for (const cake of cakesToRender) {
+        const cakeImgContainer = document.createElement("div");
+        cakeImgContainer.classList.add("cake-info_image");
+
+        const cakeImg = document.createElement("img");
+        cakeImg.src = cake.image;
+        cakeImg.width = 400;
+        cakeImg.height = 350;
+        cakeImgContainer.appendChild(cakeImg);
+
+        const cakeInfoContainer = document.createElement("div");
+        cakeInfoContainer.classList.add("cake-info_description");
+
+        const cakeInfoTitle = document.createElement("span");
+        cakeInfoTitle.classList.add("cake-info_description_name");
+        const cakeInfoTitleText = document.createTextNode(cake.name);
+        cakeInfoTitle.appendChild(cakeInfoTitleText);
+
+        const cakeInfoDesc = document.createElement("span");
+        cakeInfoDesc.classList.add("cake-info_description_text");
+        const cakeInfoDescText = document.createTextNode(cake.description);
+        cakeInfoDesc.appendChild(cakeInfoDescText);
+
+        const cakeInfoPrice = document.createElement("span");
+        cakeInfoPrice.classList.add("cake-info_description_sum");
+        const cakeInfoPriceText = document.createTextNode("Цена: " + cake.price);
+        cakeInfoPrice.appendChild(cakeInfoPriceText);
+
+        cakeInfoContainer.appendChild(cakeInfoTitle);
+        cakeInfoContainer.appendChild(cakeInfoDesc);
+        cakeInfoContainer.appendChild(cakeInfoPrice);
+
+        const cakeInfoBody = document.createElement("div");
+        cakeInfoBody.classList.add("cake-info_body");
+
+        cakeInfoBody.appendChild(cakeImgContainer);
+        cakeInfoBody.appendChild(cakeInfoContainer);
+
+        cakeInfo.appendChild(cakeInfoBody);
+    }
+
+    const sum = cakesToRender.reduce((acc, next) => acc + Number(next.price), 0);
+    const cakesTotalSumm = document.createElement("span");
+    const cakesTotalSummText = document.createTextNode("СУММА: " + sum);
+    
+    cakesTotalSumm.appendChild(cakesTotalSummText);
+    cakeInfo.appendChild(cakesTotalSumm);
 }
 
 renderCart();
