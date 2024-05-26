@@ -31,6 +31,7 @@ $dark-blue: #07779E;
     &_body {
         display: flex;
         gap: 50px;
+        margin-bottom: 30px;
     }
 
     &_image {
@@ -38,6 +39,7 @@ $dark-blue: #07779E;
         height: 400px;
         background-color: white;
         border-radius: 70px;
+        padding: 10px;
     }
 
     &_description {
@@ -60,6 +62,12 @@ $dark-blue: #07779E;
             color: $dark-pink;
         }
     }
+
+    .total-sum{
+        font-size: 40px;
+        color: $dark-pink;
+    }
+
 }
 
 .pay-options {
@@ -85,6 +93,8 @@ $dark-blue: #07779E;
             display: inline-flex;
             align-items: center;
             user-select: none;
+            font-family: "Hoefler Text";
+            color: $text;
 
             font-size: 24px;
 
@@ -124,12 +134,14 @@ $dark-blue: #07779E;
 .manage {
     display: flex;
     justify-content: end;
+    font-family: "Arial Black";
 
     &-request-button {
         width: 300px;
         height: 90px;
         border: 1px solid $dark-blue;
         border-radius: 50px;
-        font-size: 30px;
+        font-size: 25px;
+        color: $dark-blue;
     }
 }

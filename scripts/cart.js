@@ -207,6 +207,7 @@ const renderCart = () => {
 
     const sum = cakesToRender.reduce((acc, next) => acc + Number(next.price), 0);
     const cakesTotalSumm = document.createElement("span");
+    cakesTotalSumm.classList.add("total-sum")
     const cakesTotalSummText = document.createTextNode("СУММА: " + sum);
     
     cakesTotalSumm.appendChild(cakesTotalSummText);
