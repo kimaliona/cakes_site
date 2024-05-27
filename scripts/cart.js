@@ -6,12 +6,22 @@ const form = {
     address: "",
 }
 
+let cakes;
+
 const getCakes = async () => {
     const response = await fetch("https://6654d0c33c1d3b6029377970.mockapi.io/api/cakes");
     return await response.json();
 }
 
-const renderCart = (cakes) => {
+const sendOrder = async (data) => {
+    const response = await fetch("https://6654d0c33c1d3b6029377970.mockapi.io/api/orders", {
+        method: "POST",
+        body: JSON.stringify(data),
+    });
+    return await response.status;
+}
+
+const renderCart = () => {
     const params = window.location.search.substring(1);
     const choosedCakesIds = params.split("&").map(param => param.split("=")[1]);
     const cakesToRender = [];
@@ -80,7 +90,8 @@ const renderCart = (cakes) => {
 }
 
 getCakes().then((data) => {
-    renderCart(data);
+    cakes = data;
+    renderCart();
 });
 
 const onChangeCheckbox = (event) => {
@@ -117,5 +128,26 @@ const onChangeInput = (inputForm) => {
 };
 
 const sendRequest = () => {
-    console.log(form);
+    const params = window.location.search.substring(1);
+    const choosedCakesIds = params.split("&").map(param => param.split("=")[1]);
+    const orderCakes = [];
+    
+    for (const id of choosedCakesIds) {
+        const cake = cakes.find(item => item.id === Number(id));
+        orderCakes.push(cake);
+    }
+    const requestBody = {
+        cakes: orderCakes, ...form
+    }
+    //sendOrder(form, );
+    sendOrder(requestBody).then((status) => {
+        if (status === 201 || status === 200) {
+            const isRedirect = confirm("Ваш заказ оформлен. Перейти на главную?") 
+            if (isRedirect ) {
+                window.location.href = "cakes.html";
+            }
+        }
+
+    });
+
 }
