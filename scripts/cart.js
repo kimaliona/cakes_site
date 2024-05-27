@@ -112,6 +112,10 @@ const onChangeCheckbox = (event) => {
     }
 };
 
-const onChangeInput = () => {
-
+const onChangeInput = (inputForm) => {
+    form[inputForm.name] = inputForm.value;
 };
+
+const sendRequest = () => {
+    console.log(form);
+}
