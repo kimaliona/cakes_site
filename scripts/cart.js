@@ -1,5 +1,9 @@
-const requestData = {
-    
+const form = {
+    payment_method: "",
+    client_name: "",
+    contact_number: "",
+    email: "",
+    address: "",
 }
 
 const getCakes = async () => {
@@ -75,12 +79,39 @@ const renderCart = (cakes) => {
     cakeInfo.appendChild(cakesTotalSumm);
 }
 
-/* renderCart(); */
 getCakes().then((data) => {
     renderCart(data);
 });
 
+const onChangeCheckbox = (event) => {
+    const byCardOnlineCheckbox = document.getElementById("byCardOnline");
+    const byCashCheckbox = document.getElementById("byCash");
+    const byCardOfflineCheckbox = document.getElementById("byCardOffline");
+
+    const checkboxes = [
+      byCardOnlineCheckbox,
+      byCashCheckbox,
+      byCardOfflineCheckbox,
+    ];
+
+    for (let checkbox of checkboxes) {
+        const isAlreadyActive = checkbox.className.includes("_active");
+
+        if (checkbox.id === event.id && !isAlreadyActive) {
+            checkbox.className = "pay-options_checkbox-input_active";
+            checkbox.value = true;
+            form.payment_method = event.name;
+        } else if (checkbox.id === event.id && isAlreadyActive) {
+            checkbox.className = "pay-options_checkbox-input";
+            checkbox.value = false;
+            form.payment_method = "";
+        } else {
+            checkbox.className = "pay-options_checkbox-input";
+            checkbox.value = false;
+        }
+    }
+};
+
 const onChangeInput = () => {
 
 };
-
