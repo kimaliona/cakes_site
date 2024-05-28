@@ -73,6 +73,11 @@ const renderCakes = () => {
         catalogSection.appendChild(cellsContainer);
         cakesContainer.appendChild(catalogSection);
     });
+
+    const idRef = decodeURI(window.location.hash);
+    document.querySelector(idRef).scrollIntoView({
+        behavior: "smooth"
+    })
 };
 
 getCakes().then((data) => {

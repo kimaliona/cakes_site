@@ -139,7 +139,6 @@ const sendRequest = () => {
     const requestBody = {
         cakes: orderCakes, ...form
     }
-    //sendOrder(form, );
     sendOrder(requestBody).then((status) => {
         if (status === 201 || status === 200) {
             const isRedirect = confirm("Ваш заказ оформлен. Перейти на главную?") 
@@ -147,7 +146,5 @@ const sendRequest = () => {
                 window.location.href = "cakes.html";
             }
         }
-
     });
-
 }
